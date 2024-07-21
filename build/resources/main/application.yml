@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shelter
+    username: shelter
+    password: shelter
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    out-of-order: true
+#logging:
+#  level:
+#    sql: debug
